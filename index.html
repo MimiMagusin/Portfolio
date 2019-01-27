@@ -18,9 +18,9 @@
       <nav class="nav-wrapper deep-purple accent-3">
         <a href="#" class="brand-logo right">Mimi</a>
         <ul id="nav-mobile" class="left hide-on-med-and-down">
-          <li><a href="#coding-cards"><i class="material-icons">code</i></a></li>
-          <li><a href="#index"><i class="material-icons">school</i></a></li>
-          <li><a href="#index"><i class="material-icons">music_note</i></a></li>
+          <li><a href="#coding"><i class="material-icons">code</i></a></li>
+          <li><a href="#teaching"><i class="material-icons">school</i></a></li>
+          <li><a href="#music"><i class="material-icons">music_note</i></a></li>
           <li><a href="#biography"><i class="material-icons">person</i></a></li>
         </ul>
       </nav>
@@ -28,7 +28,7 @@
 
     <main>
       <div class="about-me">
-        <div class="avatar card blue-grey darken-1">
+        <div class="avatar card">
           <img class="avatar-image"src="https://mimimagusin.files.wordpress.com/2014/03/12273682_731783956957444_2372358248743957008_o.jpg" alt="Picture Mimi Magusin"/>
         </div>
         <h1 class="title">Mimi Magusin</h1>
@@ -55,7 +55,7 @@
               <p>I am really interested the full-stack approach, where you are involved with all aspects of an app!</p>
             </div>
             <div class="card-action">
-              <a href="#coding-cards"><i class="material-icons left">expand_more</i> Learn More</a>
+              <a href="#coding"><i class="material-icons left">expand_more</i> Learn More</a>
             </div>
           </div>
           <div class="card red darken-4">
@@ -76,7 +76,7 @@
               </p>
             </div>
             <div class="card-action">
-              <a href="#biography"><i class="material-icons left">expand_more</i> Learn More</a>
+              <a href="#teaching"><i class="material-icons left">expand_more</i> Learn More</a>
             </div>
           </div>
           <div class="card red darken-4">
@@ -96,7 +96,7 @@
               </p>
             </div>
             <div class="card-action">
-              <a href="#biography"><i class="material-icons left">expand_more</i> Learn More</a>
+              <a href="#music"><i class="material-icons left">expand_more</i> Learn More</a>
             </div>
           </div>
         </div>
@@ -112,8 +112,9 @@
         </div>
       </div>
 
-      <div>
-        <div id="coding-cards">
+      <div id="coding">
+        <h2 class="title">Code</h2>
+        <div class="coding-cards">
           <div class="card horizontal">
             <div class="card-image">
               <img class="code-image" src="./icons/react.png" alt="React logo">
@@ -200,9 +201,80 @@
           </div>
         </div>
         <div class="actions">
-          <a class="button waves-effect waves-light btn-large deep-purple accent-3" href="#biography">
+          <a class="button waves-effect waves-light btn-large deep-purple accent-3" href="#teaching">
             <i class="material-icons left">expand_more</i>
             Teaching
+          </a>
+          <a class="button waves-effect waves-light btn-large deep-purple accent-3" href="#biography">
+            <i class="material-icons left">expand_more</i>
+            Biography
+          </a>
+          <a class="button waves-effect waves-light btn-large deep-purple accent-3" href="#">
+            <i class="material-icons left">expand_less</i>
+            Home
+          </a>
+        </div>
+      </div>
+
+      <div id="teaching">
+        <div class="teaching-content">
+          <div class="comic card blue-grey darken-1">
+            <img class="comic-image"src="https://imgs.xkcd.com/comics/progeny.png" alt="Comic Teaching"/>
+          </div>
+          <div class="teaching-text">
+            <h2 class="title">Teaching</h2>
+            <p>
+              I grew up in a family full of teachers and made a switch from a waldorf to a 'regular' school when I was 16.
+              This made me wonder about different teaching strategies, approaches and learning goals.
+            </p>
+            <p>
+              In 2013 I became a tutor for different subjects, such as French, Mathematics, Dutch, Biology & Physics. I
+              helped students from all ages (13 - 40+) to figure out why they were struggling, get interested in a topic,
+              figure out learning strategies that worked for them and of course by explaining all sorts of topics, and
+              creating extra exercises.
+            </p>
+            <p>
+              By the end of 2013, I got the word of an Anthropolgy program organised at University College Roosevelt (Going Glocal)
+              which involved teaching a group of primary school students. In my final year, an educational Minor was set up,
+              and although I have never been able to complete it (some of the courses were set up only after I graduated), I
+              enrolled in all available courses, including "Psychology of learning" and "Principles of Pedagogy".
+            </p>
+              In 2017 I started teaching full classes at Codaisseur and it has been really fun!
+            <p>
+            </p>
+          </div>
+        </div>
+        <div class="actions">
+          <a class="button waves-effect waves-light btn-large deep-purple accent-3" href="#index">
+            <i class="material-icons left">expand_less</i>
+            Code/Music
+          </a>
+          <a class="button waves-effect waves-light btn-large deep-purple accent-3" href="#biography">
+            <i class="material-icons left">expand_more</i>
+            Biography
+          </a>
+          <a class="button waves-effect waves-light btn-large deep-purple accent-3" href="#">
+            <i class="material-icons left">expand_less</i>
+            Home
+          </a>
+        </div>
+      </div>
+
+
+      <div id="music">
+        <h2 class="title">Music</h2>
+        <p class="title"> Curious about my music? Here you can find some examples: </p>
+        <div class="videos">
+        <iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/q2jpxX8vnuo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/aiSsv-Va_ns" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/hAR0G6ntkzU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/Ybw2TlMnZJA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/79ynPyi3V2I" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <div class="actions">
+          <a class="button waves-effect waves-light btn-large deep-purple accent-3" href="#index">
+            <i class="material-icons left">expand_less</i>
+            Teaching/Coding
           </a>
           <a class="button waves-effect waves-light btn-large deep-purple accent-3" href="#biography">
             <i class="material-icons left">expand_more</i>
@@ -286,6 +358,9 @@
             </a>
             <a class="grey-text text-lighten-3" href="https://medium.com/@mimagisch">
               <img class="link-icon" src="./icons/github.png" alt="github"/>
+            </a>
+            <a class="grey-text text-lighten-3" href="https://www.youtube.com/channel/UC-utv65CyxDUIs_8fhA7bLA?view_as=subscriber">
+              <img class="link-icon" src="./icons/youtube.png" alt="youtube"/>
             </a>
           </div>
         </div>

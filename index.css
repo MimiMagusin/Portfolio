@@ -13,8 +13,8 @@ p {
   margin: .5rem !important;
   letter-spacing: 1px;
 }
-.about-me, #index, #biography, #coding-cards {
-  min-height: 90vh;
+.about-me, #index, #biography, #coding, #teaching {
+  min-height: 100vh;
 }
 .about-me {
   display: flex;
@@ -44,7 +44,7 @@ p {
 .attention {
   font-weight: bold;
 }
-#biography {
+#biography, #teaching {
   margin-top: 5rem;
   margin-bottom: 1px;
   background: #651fff;
@@ -80,7 +80,10 @@ p {
   border-radius: 50%;
   padding: 1rem;
 }
-#coding-cards {
+#coding, #music {
+  padding-top: 10rem;
+}
+.coding-cards, .videos {
   display: flex;
   flex-flow: row wrap;
   width: 100%;
@@ -90,12 +93,39 @@ p {
 .code-image {
   height; 100%
 }
+.comic {
+  width: 321px;
+  height: 421px;
+  border-radius: 5px;
+  margin: 1rem auto !important;
+  overflow: hidden;
+}
+.comic-image {
+  border-radius: 5px;
+}
 .link-icon {
   height: 3rem;
   margin-right: 1rem;
   margin-top: .5rem;
 }
+.teaching-content {
+  display: flex;
+  flex-direction: row wrap;
+  justify-content: space-between;
+}
+.teaching-text {
+  max-width: 50%;
+  text-align: right;
+}
 .title {
   text-align: center;
   margin: 2rem;
+}
+.video {
+  margin: 2rem;
+}
+.videos {
+  display: flex;
+  flex-flow: row, wrap;
+  justify-content: center;
 }
