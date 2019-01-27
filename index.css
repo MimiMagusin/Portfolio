@@ -13,7 +13,7 @@ p {
   margin: .5rem !important;
   letter-spacing: 1px;
 }
-.about-me, #index, #biography {
+.about-me, #index, #biography, #coding-cards {
   min-height: 90vh;
 }
 .about-me {
@@ -79,6 +79,16 @@ p {
   background: #f44336;
   border-radius: 50%;
   padding: 1rem;
+}
+#coding-cards {
+  display: flex;
+  flex-flow: row wrap;
+  width: 100%;
+  padding: 2rem;
+  margin-top: 5rem;
+}
+.code-image {
+  height; 100%
 }
 .link-icon {
   height: 3rem;
